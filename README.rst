@@ -8,10 +8,9 @@ The docs are written in `reStructuredText <http://www.sphinx-doc.org/rest.html>`
 Build:
 ------
 
-.. image:: https://readthedocs.org/projects/linuxmint-translation-guide-guide/badge/?version=latest
+.. image:: https://readthedocs.org/projects/linuxmint-translation-guide/badge/?version=latest
     :target: http://linuxmint-translation-guide.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-
 
 To build locally install ``python-sphinx`` and run ``make html`` in the ``docs`` directory.
 
