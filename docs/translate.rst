@@ -19,19 +19,17 @@ To see all the languages and their current status, go to `Translation status by 
     :width: 500px
     :align: center
 
-Click on your language:
+Click on your language and then on the name of the team which is responsible for translations in your language:
 
 .. figure:: images/launchpad2.png
     :width: 500px
     :align: center
 
-Click on the name of the team which is responsible for translations in your language:
+Click :guilabel:`Join the team`:
 
 .. figure:: images/launchpad3.png
     :width: 500px
     :align: center
-
-Click :guilabel:`Join the team`.
 
 
 Translate using Launchpad
@@ -45,7 +43,7 @@ Click on your language, choose a project which has missing translations and clic
     :width: 500px
     :align: center
 
-At the top of the page, make sure to be in ``Reviewer mode`` (otherwise your translations won't be approved automatically and they will wait for somebody else to review them).
+At the top of the page, make sure that you are in ``Reviewer mode`` (otherwise your translations won't be approved automatically and they will wait for somebody else to review them).
 
 Using POEdit
 ============
@@ -66,7 +64,7 @@ Choose a project and click :guilabel:`Download translation`:
 
 Choose ``PO format`` as the file format and click :guilabel:`Request Download`.
 
-Wait for Launchpad to send you an email (this can take a little while). In the email you will find a download link to either the ``.po`` file directly, or an compressed archive containing the ``.po`` file.
+Wait for Launchpad to send you an email (this can take a little while). In the email you will find a download link to either the ``.po`` file directly or a compressed archive containing the ``.po`` file.
 
 Use POEdit
 ----------
@@ -77,7 +75,7 @@ To install POEdit, open a terminal and type:
 
     apt install poedit
 
-Open the ``.po`` file you got from Launchapd with POEdit:
+Open the ``.po`` file you got from Launchpad with POEdit:
 
 .. figure:: images/poedit.png
     :width: 500px
@@ -98,4 +96,4 @@ In Launchpad, click :guilabel:`Upload translation`.
 
 Select your ``.po`` file and click :guilabel:`Upload`.
 
-Click ``Translation Import Queue`` to reach the `Translation import queue for latest <https://translations.launchpad.net/linuxmint/latest/+imports>`_. If your upload is marked as ``Needs Review``, click the ``Edit`` button (which is symbolized by a pen symbol), choose the right template (i.e. project), and click ``Approve``.
+Click ``Translation Import Queue`` to view the `Translation import queue for latest <https://translations.launchpad.net/linuxmint/latest/+imports>`_. If your upload is marked as ``Needs Review``, click the ``Edit`` button (symbolized by a pen symbol), choose the correct template (i.e. project), and click ``Approve``.
