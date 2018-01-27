@@ -35,7 +35,7 @@ This opens the translation checking tool and highlights errors in your PO file:
     :width: 500px
     :align: center
 
-This tool won't highlight translation mistakes you might make (grammar, spelling etc..), but it will ensure your translations are properly structured and won't affect the software you're translating. Among other things, this tool checks that special meaningful characters are preserved, that variables are still there etc..
+This tool won't highlight translation mistakes you might make (grammar, spelling, etc.), but it will ensure your translations are properly structured and won't affect the software you're translating. Among other things, this tool checks that special meaningful characters are preserved, that variables are still there, etc.
 
 .. note::
 	This tool can scan multiple PO files and recurse through sub-directories. It is used by the Linux Mint team to check all translations.
@@ -62,7 +62,7 @@ Here are a few examples of wrong translations:
 | The file %(file)s could not be found    | Le fichier %(fichier)s est introuvable       | Missing variable %(file)s         |
 +-----------------------------------------+----------------------------------------------+-----------------------------------+
 
-If variables are malformed, missing or if their name doesn't match the original source code, the application you are translating could crash when run in your language.
+If variables are malformed, missing, or if their name doesn't match the original source code, the application you are translating could crash when run in your language.
 
 In documentation written in RST
 -------------------------------
@@ -78,7 +78,7 @@ Here are a few examples of wrong translations:
 +-----------------------------------------+----------------------------------------------+-----------------------------------+
 | Click \:guilabel:\`Save\`               | Cliquez sur \:guilabel:\'Save\'              | ' instead of \`                   |
 +-----------------------------------------+----------------------------------------------+-----------------------------------+
-| Click \:guilabel:\`Save\`               | Cliquez sur \:guilabel:\'Save                | Missing one \`                    |
+| Click \:guilabel:\`Save\`               | Cliquez sur \:guilabel:\`Save                | Missing one \`                    |
 +-----------------------------------------+----------------------------------------------+-----------------------------------+
 | Click \:guilabel:\`Save\`               | Cliquez sur guilabel:\`Save\`                | Missing one :                     |
 +-----------------------------------------+----------------------------------------------+-----------------------------------+
@@ -89,7 +89,7 @@ Special characters such as `````, ``-->``, directives such as ``:guilabel:``, ``
 
 Make sure to respect them and translate content accurately.
 
-If you think the original sentence is missing something, then propose a modification in the original documentation directly. You cannot deviate or add content to your translation which isn't present in the original.
+If you think the original sentence is missing something, then propose a modification to the original documentation. You cannot deviate or add content to your translation which isn't present in the original.
 
 Other mistakes
 --------------
@@ -105,7 +105,7 @@ Software and documentation should be easy to use and any text you translate shou
 
 The user experience is more important than any other consideration, including official language definitions, language preservation policies or politics in general.
 
-If the official translation for a given word isn't commonly known or used by users, you should not use it. Prefer the terms used by most people instead. The goal isn't to educate users, or to enforce anything. Correctness and exactitude are important but not as much as user experience.
+If the official translation for a given word isn't commonly known or used by users, you should not use it. Prefer the terms used by most people instead. The goal isn't to educate users or to enforce anything. Correctness and exactitude are important but not as much as user experience.
 
 If everyone around you says A and your government and/or dictionary says B, whether you agree with one side or the other isn't relevant, go for A.
 
