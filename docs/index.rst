@@ -31,3 +31,9 @@ This guide will help you translate Linux Mint software and documentation in your
    :caption: Verify
 
    verify
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Xlets
+
+   translate_xlets
