@@ -10,7 +10,7 @@ Let's say for instance that you want to add some translations for the Weather ap
 Using Poedit
 ------------
 
-Once you've opened the relevant .po file in poedit, you first need to make sure that it is up to date and contains all the latest strings that need translating as it may not have been updated for a while. To do this, select :guilabel:`Translation` > :guilabel:`Update from POT File...` in the menu and select the .pot file that is in the same directory as the .po file you are editing, in this case it's "weather@mockturl.pot". You can now add your translations in poedit and save the file. Poedit may also save a .mo file in the same directory but this should be deleted. You can prevent poedit from saving a .mo file in the preferences.
+Once you've opened the relevant .po file in poedit, you first need to make sure that it is up to date and contains all the latest strings that need translating as it may not have been updated for a while. To do this, select :guilabel:`Translation` > :guilabel:`Update from POT File...` in the menu and select the .pot file that is in the same directory as the .po file you are editing, in this case it's ``weather@mockturl.pot``. You can now add your translations in poedit and save the file. Poedit may also save a .mo file in the same directory but this should be deleted. You can prevent poedit from saving a .mo file in the preferences.
 
 Install the changes
 -------------------
@@ -22,7 +22,7 @@ Once you've saved the file, you'll need to install it. Go to the directory conta
 
    cinnamon-xlet-makepot weather@mockturtl --install
 
-or replace "weather@mockturtl" with the name of the folder containing the applet you've added translations to. It should say: "installed 20 files" or however many .po files the applet has. Now restart cinnamon (Ctrl-Alt-Esc) and see your translations in the applet.
+or replace "weather\@mockturtl" with the name of the folder containing the applet you've added translations to. It should say: "installed 20 files" or however many .po files the applet has. Now restart cinnamon (Ctrl-Alt-Esc) and see your translations in the applet.
 
 .. note::
    More detailed instructions on this process (including instructions for applet developers) can be found `here <https://github.com/NikoKrause/CinnVIIStarkMenu/issues/19>`_.
@@ -74,7 +74,7 @@ You have now updated the file in your repository. Now you can ask Linux Mint to 
     Make a pull request
 
 You will then be presented with a page showing the changes you propose and a button to confirm the pull request :guilabel:`Create pull request`.
-That's it. All you have to do now is wait for Linux Mint to review and merge your pull request. When this happens, you should recieve an email, after which you can safely delete your fork ready for the next time. You can delete your fork at the bottom of the settings page.
+Now give your pull request a title, e.g. "weather\@mockturtl: update bg.po" and that's it. All you have to do now is wait for Linux Mint to review and merge your pull request. When this happens, you should recieve an email, after which you can safely delete your fork ready for the next time. It's always a good idea to delete your fork when you no longer need it because if you accidentally fork the same repository twice, things can get complicated. You can delete your fork at the bottom of the settings page.
 
 .. figure:: images/github_settings.png
     :width: 1004px
