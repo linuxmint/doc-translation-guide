@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Linux Mint Translation Guide'
-copyright = '2017, Linux Mint'
+copyright = '2022, Linux Mint'
 author = 'Linux Mint'
 
 # The version info for the project you're documenting, acts as replacement for
